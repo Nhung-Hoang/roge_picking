@@ -1,0 +1,123 @@
+/**** Base styles***/
+body{
+  font-family: 'Tinos', serif;
+  font-size:15px;
+  }
+/****GRID****/
+#page-set{
+  width:1200px;
+  margin:0 auto;
+}
+/****HEADER****/
+header {
+    height:300px;
+    background: url('../img/download.jpg');
+    background-size: cover;
+    padding: 40px 0;
+    margin-top:90px;
+    margin-left:40px;
+    margin-right:40px;
+    border: 3px solid green;
+}
+header h1 {
+    padding: 50px 0;
+    font-family:'Tinos', serif;
+    font-size:30px;
+    text-transform:uppercase;
+    margin-top:-150px;
+    margin-left:-5px;
+    }
+header h1 span{
+  color:green;
+}
+nav {
+    float: right;
+    padding: 75px 40px;
+    margin-top:-180px;
+    }
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:12px;
+    color:green;
+    padding-left:10px;
+    clear:both;
+}
+/***** ABOUT *****/
+.about h2{
+  padding-left:35px;
+  color:green;
+  text-transform: uppercase;
+}
+.about p{
+  font-size:20px;
+  line-height:25px;
+  padding-left:35px;
+}
+/**** MENU ****/
+.first-section{
+  float:left;
+  width:420px;
+  border-top: 1px solid #eee;
+  margin-left:30px;
+}
+.first-section h3{
+padding-left:35px;
+}
+.menu{
+  list-style: none;
+  font-size:18px;
+  padding-left:35px;
+}
+.menu li{
+  color:green;
+  line-height:27px;
+  font-size: 18px;
+  padding:10px 0;
+}
+/***** review *****/
+#second-section{
+  float:left;
+  width:389px;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+#second-section h3{
+  padding:10px 30px;
+}
+.reviews {
+  padding:10px 30px;
+  font-size:18px;
+  line-height:25px;
+}
+/***** Contact *****/
+#third-section{
+  float:left;
+  width:389px;
+  border-top: 1px solid #eee;
+}
+#third-section h3{
+  padding:10px 30px
+}
+.contact{
+  font-size:18px;
+  line-height:25px;
+  padding:10px 30px;
+}
+/**** Footer ****/
+footer{
+  text-align:center;
+  clear:both;
+  font-size:20px;
+  border-top:3px solid #eee;
+  width:1200px;
+  margin-left:30px;
+  }
+footer p span{
+font-family: 'Great Vibes', cursive;
+color:green;
+}
